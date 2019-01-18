@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import Header from './Header'
+
 const Content = styled.div`
   display: flex;
   align-items: center;
@@ -10,7 +12,7 @@ const Content = styled.div`
 function App() {
   return ( 
     <Content>
-      <h1>Hello</h1>
+      <Header />
     </Content>
   )
 }
