@@ -38,8 +38,6 @@ const Img = styled.img`
 
 const Content = styled.div``
 
-
-
 function NameContainer({ name, title, img, children }) {
   return (
     <Container>
