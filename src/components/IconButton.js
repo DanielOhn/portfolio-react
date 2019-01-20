@@ -7,11 +7,11 @@ const Name = styled.h1``
 
 const Icon = styled.div``
 
-function IconButton({ name, icon, url }) {
+function IconButton({ name, children }) {
   return ( 
     <Content>
       <Name>{name}</Name>
-      <Icon>{icon}</Icon>
+      <Icon>{children}</Icon>
     </Content>
   )
 }

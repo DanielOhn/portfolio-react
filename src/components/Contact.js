@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import IconButton from './IconButton'
+import GitIcon from './GitIcon'
+//import EmailIcon from './EmailIcon'
 
 const Container = styled.section`
   border: solid;
@@ -9,14 +10,13 @@ const Container = styled.section`
   background: papayawhip;
   display: flex;
   flex-direction: row;
-
 `
 
 function Contact() {
   return (
     <Container>
       Hello
-      <IconButton />
+      <GitIcon />
     </Container>
   )
 }
