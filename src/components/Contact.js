@@ -15,7 +15,6 @@ const Container = styled.section`
 function Contact() {
   return (
     <Container>
-      Hello
       <GitIcon />
       <EmailIcon />
     </Container>

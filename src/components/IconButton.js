@@ -1,7 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Content = styled.div``
+const Content = styled.div`
+  margin-left: 2em;
+  margin-right: 2em;
+`
 
 const Name = styled.h1``
 
