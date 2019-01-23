@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import Header from './Header'
 import Contact from './Contact'
+import Projects from './Projects'
 
 const Content = styled.div`
   display: flex;
@@ -15,6 +16,7 @@ function App() {
     <Content>
       <Header />
       <Contact />
+      <Projects />
     </Content>
   )
 }
