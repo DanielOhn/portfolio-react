@@ -8,8 +8,7 @@ function Header() {
         name="Catsby"
         title="React Web Developer"
         img="none"
-      >
-    </NameContainer>
+      />
   )
 }
 
