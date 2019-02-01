@@ -1,16 +1,22 @@
 import React from 'react'
 
-import { Container, Header, Image } from 'semantic-ui-react'
+import { Container, Header, Image, Grid } from 'semantic-ui-react'
 
-function NameContainer({ name, title, children }) {
+function NameContainer({ name, title, img, desc }) {
   return (
     <Container fluid>
-      <Header as="h2">{name}</Header>
-      <Image src="https://img.tutpad.com/tut/0/0/46/15-black-cat-character.jpg?size=%3C700x&dpr=2" />
-      <Header as="h4">{title}</Header>
-      <p>
-        {children}
-      </p>
+      <Grid columns={2}>
+        <Grid.Row>
+          <Grid.Column>
+            <Header as="h1">{name}</Header>
+            <Header as="h2">{title}</Header>
+            <p>{desc}</p>
+          </Grid.Column>
+          <Grid.Column>        
+            <Image src={img} size="small" circular />
+          </Grid.Column>
+        </Grid.Row>        
+     </Grid>
     </Container>
   )
 }

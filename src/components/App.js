@@ -9,7 +9,8 @@ import Header from './Header'
 // import Projects from './Projects'
 
 function App() {
-  return ( 
+  return (
+    <div className="main-content">
       <Grid columns='equal'>
         <Grid.Row stretched>
           <Grid.Column>
@@ -23,6 +24,7 @@ function App() {
           </Grid.Column>
         </Grid.Row>
       </Grid>
+    </div> 
   )
 }
 
