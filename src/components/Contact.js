@@ -1,22 +1,24 @@
 import React from 'react'
-import styled from 'styled-components'
+
+import { Container, Grid, GridColumn } from 'semantic-ui-react'
 
 import GitIcon from './GitIcon'
 import EmailIcon from './EmailIcon'
 
-const Container = styled.section`
-  border: solid;
-  padding: 4em;
-  background: papayawhip;
-  display: flex;
-  flex-direction: row;
-`
 
 function Contact() {
   return (
     <Container>
-      <GitIcon />
-      <EmailIcon />
+      <Grid columns={3}>
+        <Grid.Row>
+          <Grid.Column>
+            <GitIcon />
+          </Grid.Column>
+          <Grid.Column>
+            <EmailIcon />
+          </Grid.Column>
+        </Grid.Row> 
+      </Grid>
     </Container>
   )
 }

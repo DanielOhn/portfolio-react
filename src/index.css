@@ -15,4 +15,9 @@ code {
 
 .main-content {
   margin-top: 25%;
+  background: grey;
+}
+
+html {
+  background: grey;
 }
