@@ -1,23 +1,28 @@
 import React from 'react'
-import styled from 'styled-components'
+
+import 'semantic-ui-css/semantic.min.css'
+
+import { Grid } from 'semantic-ui-react'
 
 import Header from './Header'
-import Contact from './Contact'
-import Projects from './Projects'
-
-const Content = styled.div`
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-`
+// import Contact from './Contact'
+// import Projects from './Projects'
 
 function App() {
   return ( 
-    <Content>
-      <Header />
-      <Contact />
-      <Projects />
-    </Content>
+      <Grid columns='equal'>
+        <Grid.Row stretched>
+          <Grid.Column>
+          </Grid.Column>
+          <Grid.Column width={9}>
+            <Header />
+            {/* <Contact />
+            <Projects /> */}
+          </Grid.Column>
+          <Grid.Column>
+          </Grid.Column>
+        </Grid.Row>
+      </Grid>
   )
 }
 
