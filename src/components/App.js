@@ -6,7 +6,7 @@ import { Grid } from 'semantic-ui-react'
 
 import Header from './Header'
 import Contact from './Contact'
-// import Projects from './Projects'
+import Projects from './Projects'
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           <Grid.Column width={9}>
             <Header />
             <Contact />
-            {/* <Projects /> */}
+            <Projects />
           </Grid.Column>
           <Grid.Column>
           </Grid.Column>

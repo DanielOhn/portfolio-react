@@ -12,9 +12,9 @@ const Link = styled.a`
 function EmailIcon() {
   return (
     <IconButton
-      name="Contact">
+      name="">
       <Link href="/">
-        <FontAwesomeIcon icon={['far', 'envelope']} size="5x" />
+        <FontAwesomeIcon icon={['far', 'envelope']} size="8x" />
       </Link>
     </IconButton>
   )

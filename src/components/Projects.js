@@ -1,20 +1,32 @@
 import React from 'react'
-import styled from 'styled-components'
 
-const Content = styled.div`
-  padding: 5em;
-  background: papayawhip;
-  border: solid;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`
+import { Card, Placeholder } from 'semantic-ui-react'
 
 function Projects() {
   return (
-    <Content>
-      Hello
-    </Content>
+    <Card.Group itemsPerRow={3} className="cards">
+      <Card raised>
+        <Card.Content>
+          <Placeholder>
+            <Placeholder.Image rectangular />
+          </Placeholder>
+        </Card.Content>
+      </Card>
+      <Card raised>
+        <Card.Content>
+          <Placeholder>
+            <Placeholder.Image rectangular />
+          </Placeholder>
+        </Card.Content>
+      </Card>
+      <Card raised>
+        <Card.Content>
+          <Placeholder>
+            <Placeholder.Image rectangular />
+          </Placeholder>
+        </Card.Content>
+      </Card>
+    </Card.Group>
   )
 }
 

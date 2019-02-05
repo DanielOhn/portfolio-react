@@ -12,9 +12,9 @@ const Link = styled.a`
 function GitIcon() {
   return (
     <IconButton
-      name="Github">
+      name="">
       <Link href="https://github.com/DanielOhn" target="_blank">
-        <FontAwesomeIcon icon={['fab', 'github']} size="5x" />
+        <FontAwesomeIcon icon={['fab', 'github']} size="8x" />
       </Link>
     </IconButton>
   )

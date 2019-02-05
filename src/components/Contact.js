@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Container, Grid, GridColumn } from 'semantic-ui-react'
+import { Container, Grid } from 'semantic-ui-react'
 
 import GitIcon from './GitIcon'
 import EmailIcon from './EmailIcon'
@@ -9,7 +9,7 @@ import EmailIcon from './EmailIcon'
 function Contact() {
   return (
     <Container>
-      <Grid columns={3}>
+      <Grid columns={2}>
         <Grid.Row>
           <Grid.Column>
             <GitIcon />

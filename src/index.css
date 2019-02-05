@@ -14,8 +14,13 @@ code {
 }
 
 .main-content {
-  margin-top: 25%;
+  margin-top: 15%;
   background: grey;
+  padding-bottom: 40%;
+}
+
+.cards {
+  padding-top: 6%;
 }
 
 html {
